@@ -15,11 +15,7 @@ function calcular(){
     resultado.innerHTML = `<li>${QTDCARNES}G de carne </li>`
     resultado.innerHTML += `<li>${QTDBREJAS} long neck</li>`
     resultado.innerHTML += `<li>${QTDREFRIS}L de refrigerante </li>`
-}
-
-
-function recalcular(){
-
+    numeroNegativo()
 }
 
 function refriPP(duracao){
@@ -31,8 +27,6 @@ function refriPP(duracao){
     }
 }
 
-
-
 function brejaPP(duracao){
     if ( duracao <= 5){
         return 4;
@@ -42,8 +36,6 @@ function brejaPP(duracao){
     }
 }
 
-
-
 function carnePP(duracao){
  if (duracao <= 5){
      return 400;
@@ -51,4 +43,8 @@ function carnePP(duracao){
 else{
     return 650;
 }
+
 }
+
+
+

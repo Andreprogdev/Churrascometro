@@ -15,9 +15,9 @@
 <body>
     <div id="divpai">
     <h1>Churrascômetro</h1>
-    <input id="criancas" type="number" name="criancas" placeholder="Nº CRIANCAS">
-    <input id="adultos" type="number" name="adultos" placeholder="Nº ADULTOS">
-    <input id="horas" type="number" name="horas" placeholder="Nº HORAS">
+    <input id="criancas" type="number" min="0" name="criancas" placeholder="Nº CRIANCAS" oninput= "validity.valid||(value='')";>
+    <input id="adultos" type="number" min="0" name="adultos" placeholder="Nº ADULTOS" oninput= "validity.valid||(value='')">
+    <input id="horas" type="number" min="0" name="horas" placeholder="Nº HORAS" oninput= "validity.valid||(value='')">
     <br>
     <button onclick="calcular()">CALCULAR</button>
     

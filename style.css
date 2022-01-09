@@ -76,4 +76,18 @@ button:hover{
 li{
     color: white;
     list-style-position:initial;
-}   
+}  
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 70px;
+    }
+    button{
+        background-color: black;
+        color: white;
+
+    }
+    button:hover{
+        background-color: sienna;
+    }
+}
