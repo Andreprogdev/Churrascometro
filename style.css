@@ -1,0 +1,79 @@
+body{
+    background-image: url(./imagem/AGORAVAI.jpg);
+}
+
+
+
+
+#divpai{
+    text-align : center;
+    margin-top : 300px;
+}
+
+h1{
+    font-family: 'Orelega One', cursive;
+    color: maroon;
+    font-size: 125px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#criancas{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid sienna;
+    font-size: 20px;
+    text-align: center;
+}
+
+#adultos{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid sienna;
+    font-size: 20px;
+    text-align: center;
+}
+
+#horas{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid sienna;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: sienna;
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+#resultado{
+    width: 300px;
+    height: 100px; 
+    border: 5px sienna solid;
+    border-radius: 5px;
+    margin:auto;
+    margin-top: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color: gray;
+}
+
+li{
+    color: white;
+    list-style-position:initial;
+}   
